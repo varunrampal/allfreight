@@ -11,9 +11,9 @@ const About = () => {
           <div class="col-md-6">
             <span class="text-serif text-primary">About Us</span>
             <h3 class="heading-92913 text-black">Welcome To Our Website</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, illum, quasi. Odit velit deserunt eligendi unde, enim. Enim fugiat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eius ullam impedit architecto debitis facilis!</p>
-            <p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a></p>
+            <p>We can deliver from envelope to heavy size Freight same day. Freight and couriers services that what we do. As long as your parcel fits in our truck we will deliver.</p>
+            
+            <p><a href="/about" class="btn btn-primary py-3 px-4">Learn More</a></p>
           </div>
         </div>
       </div>

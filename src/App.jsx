@@ -1,14 +1,10 @@
 import { useState } from 'react'
-import Header from './Components/Header'
-import Slider from './Components/Slider'
-import About from './Components/About'
-import Features from './Components/Features'
-import BannerBottom from './Components/BannerBottom'
-import Booking from './Components/Booking'
-import Testimonials from './Components/Testimonials'
-import Footer from './Components/Footer'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Whatsapp from './Components/Whatsapp'
-
+import AboutPage from './Pages/AboutPage';
+import HomePage from './Pages/HomePage';
+import BookingPage from './Pages/BookingPage';
+import ContactPage from './Pages/ContactPage';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -24,7 +20,23 @@ function App() {
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    <Header/>
+    <Router>
+      
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/booking" element={<BookingPage />} />
+      </Routes>
+     
+   
+    </Router>
+   
+<Whatsapp/>
+
+
+
+    {/* <Header/>
     <Slider/>
     <About/>
   
@@ -32,7 +44,7 @@ function App() {
       <BannerBottom/>
     <Testimonials/>
     <Footer/>
-    <Whatsapp/>
+    <Whatsapp/> */}
     </div>
     </>
   )

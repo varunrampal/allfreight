@@ -14,7 +14,7 @@ const Footer = () => {
           <div class="col-lg-3">
             <h3 class="footer-heading"><span>Our Company</span></h3>
             <ul class="list-unstyled">
-                <li><a href="#">About</a></li>
+                <li><a href="/about">About</a></li>
                 <li><a href="#">Rates</a></li>
                 <li><a href="#">Services</a></li>
                 
@@ -31,7 +31,7 @@ const Footer = () => {
           <div class="col-lg-3">
               <h3 class="footer-heading"><span>Contact</span></h3>
               <ul class="list-unstyled">
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 
               </ul>
           </div>
