@@ -1,4 +1,4 @@
-import Layout from "../components/Layout"
+import Layout from "../Components/Layout"
 import About from "../Components/About"
 import Booking from "../Components/Booking"
 import Slider from "../Components/Slider"
