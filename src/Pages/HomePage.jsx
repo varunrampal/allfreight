@@ -2,6 +2,7 @@ import Layout from "../components/Layout"
 import About from "../Components/About"
 import Booking from "../Components/Booking"
 import Slider from "../Components/Slider"
+import Layout from "../components/Layout"
 
  const Home = () => {
   return (
